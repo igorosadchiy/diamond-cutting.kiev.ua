@@ -1,0 +1,32 @@
+/* IMPORT MODULES */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Philosopher:300,400,500,600,700,900&subset=cyrillic');
+@import "lib/animate.min.css";
+@import "lib/bootstrap.min.css";
+@import "lib/font-awesome.min.css";
+@import "lib/icofont.css";
+@import "lib/slick.css";
+@import "lib/slicknav.min.css";
+@import "reset";
+@import "style";
+@import "responsive";
+
+/* DEFAULT */
+body {
+    line-height: 24px;
+    font-size: 14px;
+    color: #666666;
+	font-family: 'PT+Sans', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+/* CONST */
+@left-gradient: #9e3f2c;
+@right-gradient: #6b1604;
+
+.bg-gradient {
+	background: @left-gradient;
+	background: -moz-linear-gradient(left, @left-gradient 0%, @right-gradient 100%);
+	background: -webkit-linear-gradient(left, @left-gradient 0%, @right-gradient 100%);
+	background: linear-gradient(to right, @left-gradient 0%, @right-gradient 100%);
+}
